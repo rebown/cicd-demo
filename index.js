@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
   );
 });
 
-const PORT = 8001;
+const PORT = 8002;
 server.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });
